@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-angular" />
+        <module name="backup" />
+        <module name="backup taass copia" />
+        <module name="taass" />
+        <module name="backup taass" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="taass" target="11" />
+      <module name="wrapper" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="backup" options="-parameters" />
+      <module name="backup taass" options="-parameters" />
+      <module name="backup taass copia" options="-parameters" />
+      <module name="spring-boot-angular" options="-parameters" />
+      <module name="taass" options="-parameters" />
+    </option>
+  </component>
+</project>

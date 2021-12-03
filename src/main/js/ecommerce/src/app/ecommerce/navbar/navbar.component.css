@@ -1,0 +1,11 @@
+.navbar {
+    background-color: #2c2c2c;
+}
+.btn:hover {
+    background-color: #b20519;
+}
+
+.nav-link:hover {
+    border: #b20519;
+
+}
